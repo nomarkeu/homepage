@@ -14,21 +14,17 @@ LatexIT.add('p',true);
 
 <body>
   
-  <div id="results" class="katex"></div>
+  
   
 <p>
 So, by definition, $\frac{D\rho}{Dt}=0$ means the flow is incompressible. But under what conditions does this hold true? (Of course, no flow is absolutely incompressible, but it's enough that the flow is incompressible as far as the analysis is concerned).
   </p>
-  <ul>
+  
 
    <div id="results" class="katex"></div>
     <script>
-    var eq = 'f(y) = \\int_{-\\infty}^\\infty\\hat f(\\xi)\\,e^{2 \\pi i 
-
-\\xi x}\\,d\\xi';
-    var eq = "\\frac{D \\rho}{D t}=\\Big( \\frac{\\partial \\rho}{\
-
-\partial t}+\\bar{V}.\\bigtriangledown\\rho\\Big)";
+    var eq = 'f(y) = \\int_{-\\infty}^\\infty\\hat f(\\xi)\\,e^{2 \\pi i \\xi x}\\,d\\xi';
+    var eq = "\\frac{D \\rho}{D t}=\\Big( \\frac{\\partial \\rho}{\\partial t}+\\bar{V}.\\bigtriangledown\\rho\\Big)";
 
       katex.render(eq, document.getElementById('results'));
     </script>
@@ -39,7 +35,7 @@ So, by definition, $\frac{D\rho}{Dt}=0$ means the flow is incompressible. But un
   
 $\frac{D \rho}{D t}=\Big(\frac{\partial \rho}{\partial t}+\bar{V}.\bigtriangledown\rho\Big)$
 -->
-  </ul>
+ 
 <p>
 So, $\frac{D\rho}{Dt}=0$ when $\Big(\frac{\partial \rho}{\partial t}+\bar{V}.\bigtriangledown\rho\Big)=0$. One trivial case where this can happen is if $\frac{\partial \rho}{\partial t}=0$ and $\bar{V}.\bigtriangledown\rho=0$. That is, when the flow is steady and is of constant density. Constant density means $\rho$ has no spatial dependancy. I suspect that, even if density was constant to start with, if the flow is unsteady, then density will be space dependant as well. An example of this situation could be spatially non uniform heating up of a homogeneous fluid. So, if the flow is steady, and density has no spatial dependancy initially, then density will not have spatial dependance in further time as well $(\bigtriangledown\rho= 0 )$. Moreover steadiness means $\frac{\partial \rho}{\partial t}=0$. So a steady flow of a fluid with initial homogeneous density will be incompressible. 
 </p>
