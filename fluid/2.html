@@ -1,0 +1,32 @@
+<html>
+<head> 
+<script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
+<script type="text/javascript">
+LatexIT.add('p',true);
+</script>
+<title>Incompressibility</title>
+</head>
+
+<body>
+<p>
+So, by definition, $\frac{D\rho}{Dt}=0$ means the flow is incompressible. But under what conditions does this hold true? (Of course, no flow is absolutely incompressible, but it's enough that the flow is incompressible as far as the analysis is concerned).
+
+<ul><p>
+
+$\frac{D \rho}{D t}=\Big(\frac{\partial \rho}{\partial t}+\bar{V}.\bigtriangledown\rho\Big)$
+
+</p></ul>
+</p>
+<p>
+So, $\frac{D\rho}{Dt}=0$ when $\Big(\frac{\partial \rho}{\partial t}+\bar{V}.\bigtriangledown\rho\Big)=0$. One trivial case where this can happen is if $\frac{\partial \rho}{\partial t}=0$ and $\bar{V}.\bigtriangledown\rho=0$. That is, when the flow is steady and is of constant density. Constant density means $\rho$ has no spatial dependancy. I suspect that, even if density was constant to start with, if the flow is unsteady, then density will be space dependant as well. An example of this situation could be spatially non uniform heating up of a homogeneous fluid. So, if the flow is steady, and density has no spatial dependancy initially, then density will not have spatial dependance in further time as well $(\bigtriangledown\rho= 0 )$. Moreover steadiness means $\frac{\partial \rho}{\partial t}=0$. So a steady flow of a fluid with initial homogeneous density will be incompressible. 
+</p>
+
+<p>
+This conclusion also means that for a steady flow of a fluid with initial homogeneous density, $\bigtriangledown.\bar{u}=0$
+</p>
+</body>
+
+<br><br>
+<hr>
+<a href="fluid.html">Fluid</a>
+</html>
