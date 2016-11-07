@@ -13,12 +13,18 @@ LatexIT.add('p',true);
 </head>
 
 <body>
+  
+  <div id="results" class="katex"></div>
+  
 <p>
 So, by definition, $\frac{D\rho}{Dt}=0$ means the flow is incompressible. But under what conditions does this hold true? (Of course, no flow is absolutely incompressible, but it's enough that the flow is incompressible as far as the analysis is concerned).
 
 <ul><p>
 
-  <script>katex.render("c = \\pm\\sqrt{a^2 + b^2}", eqn1);</script>
+  <script>
+    var eq='c = \\pm\\sqrt{a^2 + b^2}';
+    katex.render(eq, document.getElementById('results'));
+  </script>
   
   katex.render("\frac{D \rho}{D t}=\Big(\frac{\partial \rho}{\partial t}+\bar{V}.\bigtriangledown\rho\Big)", element);
   
