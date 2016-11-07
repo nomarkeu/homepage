@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>KaTeX example</title>
+    <link rel="stylesheet" href="/application/html/js/khan/katex/katex.min.css">
+    <script src="/application/html/js/khan/katex/katex.min.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div id="results" class="katex"></div>
+    <script>
+    var eq = 'f(x) = \\int_{-\\infty}^\\infty\\hat f(\\xi)\\,e^{2 \\pi i \\xi x}\\,d\\xi';
+    //var eq = "f(x) = \\pm\\sqrt{a^2 + b^2}"
+      katex.render(eq, document.getElementById('results'));
+
+
+
+    </script>
+</body>
+</html>
+
