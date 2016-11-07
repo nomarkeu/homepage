@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html>
 <head>
 <script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
@@ -76,4 +77,84 @@ Here, to emphasize that we are in Eulerian frame and that the material time deri
 
 <br><br>
 <hr>
+=======
+<html>
+<head>
+<script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
+<script type="text/javascript">
+LatexIT.add('p',true);
+</script>
+<title>Fluid</title>
+</head>
+
+<body>
+<strong>T</strong>here are three ways you can look at/observe a flow:
+
+<ol>
+<li>Pick a point in  space and measure the flow properties as it passes by.</li>
+<li>Take a snapshot of a flow at an instant and measure the properties of the flow at different spatial locations at that instant.</li>
+<li>Pick an infinitesimal dyed blob of fluid and measure its properties as it moves with the flow</li>
+</ol>
+
+<p>
+If the flow is incompressible, density of 3 will be constant. But for an incompressible flow, density at 1 can change with time and can change with spatial location in 2. But there will be a relation between the two (in a very rough way, change in density at 1 for a particular location and time will be equal to change it density at 2 at that same instant and location).
+</p>
+
+<p>How can all the situations below be explained in terms of 1, 2 & 3.</p>
+<p>There are three flow characteristics (for inviscid flow):</p>
+<ul>
+<li>compressible or incompressible</li>
+<li>steady or unsteady</li>
+<li>constand density or not constant density</li>
+</ul>
+<p>So there are total 8 combinations. How can all of them be explained in terms of 1, 2 & 3.</p>
+
+<p> <strong>1.</strong> How does an incompressible, non constant density, steady flow, differ from an incompressible, non constant density, unsteady flow, in terms of the observations of 1, 2 & 3.</p>
+<p>
+
+<h4>Conservation of mass:</h4>
+<p> This is easily obtained by doing mass flow balance in an infinitesimal rectangular control volume fixed in laboratory frame.</p>
+
+<ul><p>
+
+$\frac{\partial \rho}{\partial t}+\bigtriangledown.\rho \bar{u} = 0$ <br><br>
+$\frac{\partial \rho}{\partial t} + \bar{u}.\bigtriangledown\rho + \rho\bigtriangledown.\bar{u}=0$ <br><br>
+$\frac{D\rho}{Dt} + \rho\bigtriangledown.\bar{u}=0$ 
+</p></ul>
+<p>
+$\frac{D\rho}{Dt}$ is the rate of change of density of a material volume. So incompressibility mathematically means $\frac{D\rho}{Dt}=0$. In that case, conservation of mass reduces to $\bigtriangledown.\bar{u}=0$. This is the order of reasoning in getting $\bigtriangledown.\bar{u}=0$ as the equation of conservation of mass for incompressible flows.
+</p>
+
+<p>So, as of now, it appears to me that once you impose incompressibility, the conditions of constant/nonconstant density and steady/unsteady have no relevance to the equation of conservation of mass.</p>
+<p>I need to understant more clearly the difference between and the peculiarities of Eulerian and Lagrangian frames. As of now, I understand (although I need to bring more clarity in to the picture) that in Lagrangian frame, incompressibility is expressed by $\frac{\partial \rho}{\partial t}=0$ and in the Eulerian frame, incompressibility is expressed as $\frac{D\rho}{Dt}=0$.
+<h4>Material Derivative</h4>
+<p>Here's a derivation of material derivative of density. It is the time dervative of density in th Eulerian frame.</p>
+
+<p>Consider a fluid particle at postition $\bar{R}$ wrt the laboratory frame and at time $t$. It's density at that position and time is $\rho$. Now consider the same particle after a time interval $dt$. During $dt$ the particle has moved away from the initial position $\bar{R}$ by $d\bar{R}$. The density of the particle might have changed at the new position and time. There can be different physical phenomena in effect in the flow that varies with position or time or both. So the total change in density will be due to both due to occuppying a new position in the flow and also due to having progressed forward in time. May be the local temperature has changed by the time the particle gets there. May be there is an increase in flow velocity at the new position. And all these contribute to the change in density. So the change in density $d\rho$ turns out to be (using cartesian coordinates to express $\bar R$), <br><br> 
+
+$d\rho = \frac{\partial \rho}{\partial t}dt + \frac{\partial \rho}{\partial x}dx + \frac{\partial \rho}{\partial y}dy+\frac{\partial \rho}{\partial z}dz$ <br><br>
+&ensp;&ensp;  $= \frac{\partial \rho}{\partial t}dt + \Big({ \frac{\partial \rho}{\partial x}\hat{i} + \frac{\partial \rho}{\partial y}\hat{j} + \frac{\partial \rho}{\partial z}\hat{k} }\Big).\Big(dx\hat{i}+dy\hat{j}+dz\hat{k}\Big)$<br><br>
+&ensp;&ensp;  $=\frac{\partial \rho}{\partial t}dt+\bigtriangledown \rho . d\bar{R} =\frac{\partial \rho}{\partial t}dt+ d\bar{R}.\bigtriangledown \rho $
+<br><br>
+&ensp;&ensp;  $=\frac{\partial \rho}{\partial t}dt+\bar{V}dt.\bigtriangledown \rho$
+<br><br>
+&ensp;&ensp;  $=\Big(\frac{\partial \rho}{\partial t}+\bar{V}.\bigtriangledown \rho\Big)dt$
+<br><br>
+$\frac{d \rho}{d t}=\Big(\frac{\partial \rho}{\partial t}+\bar{V}.\bigtriangledown\rho\Big)$
+</p>
+
+<p>
+Here, to emphasize that we are in Eulerian frame and that the material time derivative includes both spatial and time partial derivatives, and that it is not just the partial time derivative, we denote it by $\frac{D}{Dt}$.
+</p>
+
+<p><h4>
+<a href="2.html">>What determines that a flow is incompressible?</a>
+</h4>
+</p>
+
+</body>
+
+<br><br>
+<hr>
+>>>>>>> fa6ef0887377bc724ccd04b57904b6cd5656e5fc
 <a href="index.html">Home</a>

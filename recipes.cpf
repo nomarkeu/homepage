@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Recipes
 Version=3
 D:\Stuff\Websites\Recipes
@@ -10,3 +11,17 @@ NO
 YES
 YES
 *.html;*.htm;*.vtm;*.vtml;*.asp;*.css;*.shtml;*.phtml;*.php;*.php3;*.xml;*.xsl;*.cfm;*.cfml;*.txt;*.pl;*.cgi;*.snp;*.js;*.vb;*.vbs;*.bas*.mid;*.wav;*.au;*.ra;*.ram;*.bmp;*.gif;*.jpg;*.jpeg;*.png;*.exe;
+=======
+Recipes
+Version=3
+D:\Stuff\Websites\Recipes
+http://
+
+
+11/6/2016 9:58:18 PM
+NO
+NO
+YES
+YES
+*.html;*.htm;*.vtm;*.vtml;*.asp;*.css;*.shtml;*.phtml;*.php;*.php3;*.xml;*.xsl;*.cfm;*.cfml;*.txt;*.pl;*.cgi;*.snp;*.js;*.vb;*.vbs;*.bas*.mid;*.wav;*.au;*.ra;*.ram;*.bmp;*.gif;*.jpg;*.jpeg;*.png;*.exe;
+>>>>>>> fa6ef0887377bc724ccd04b57904b6cd5656e5fc

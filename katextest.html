@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>KaTeX example</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.js"></script>
+    <style></style>
+</head>
+<body>
+    <div id="results" class="katex"></div>
+    <script>
+    var eq = 'f(y) = \\int_{-\\infty}^\\infty\\hat f(\\xi)\\,e^{2 \\pi i \\xi x}\\,d\\xi';
+    var eq = "\\frac{D \\rho}{D t}=\\Big( \\frac{\\partial \\rho}{\\partial t}+\\bar{V}.\\bigtriangledown\\rho\\Big)";
+
+      katex.render(eq, document.getElementById('results'));
+
+   </script>
+    </body>
+</html>
+
