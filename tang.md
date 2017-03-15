@@ -1,4 +1,4 @@
-####Tang Dynasty Menu Reviews
+####Tang Dynasty 
 
 1.	Cumin Beef
 	
@@ -11,3 +11,9 @@
 3.	Shredded Pork with Garlic Sauce
 		
 		Too sweet. Not pleasant towards the end.
+
+####Golden Wok
+
+1. Hainan Chicken
+		
+		Comfort food! And the soup that comes with it s heaven. Definitely ordering this again. So simple but so tasty.
