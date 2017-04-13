@@ -1,1 +1,0 @@
-Lighting to be done
